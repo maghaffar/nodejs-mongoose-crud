@@ -1,15 +1,11 @@
-import React from 'react'
+import React from "react";
+import Main from "../components/main";
+const Home = () => {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
+};
 
-class Header extends React.Component{
-    render(){
-        return (
-            <main className="container mx-auto px-3 pb-16">
-                <h1 className="text-3xl font-bold">Simple React Boilerplate</h1>
-
-
-            </main>
-        )
-    }
-}
-
-export default Header;
+export default Home;
